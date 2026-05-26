@@ -44,3 +44,24 @@ body.modal-open{overflow:hidden}.trip-modal{position:fixed;inset:0;z-index:100;d
 .season-muted{display:inline-block;color:var(--muted);font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:.85rem;margin-top:8px}.gallery .small-note{max-width:720px;margin-left:auto;margin-right:auto}.gallery-filters{display:none!important}.regulation-actions{align-items:center}.regulation-actions .btn{white-space:nowrap}.brand:hover span{color:var(--tan)}
 @media(max-width:980px){.special-grid,.conditions-grid{grid-template-columns:1fr}.special-card{min-height:280px}.condition-card{min-height:auto}.regulation-actions .btn{width:100%}}
 @media(max-width:620px){.special-card{padding:30px 22px}.conditions-grid{gap:14px}.condition-card{padding:22px}}
+
+/* v9 launch polish */
+.social-box{text-align:center;border:1px solid rgba(213,178,122,.35);border-radius:32px;background:linear-gradient(135deg,rgba(7,7,6,.92),rgba(7,7,6,.72)),url('../images/brand/water-camo-bg.jpg') center/cover;padding:46px 28px;box-shadow:var(--shadow)}
+.social-box h2{font-size:clamp(2.7rem,6vw,6rem)}
+.social-box p{max-width:760px;margin:0 auto 22px;color:#ead8b5}
+.social-buttons{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin:22px 0 18px}
+.booking-box{border:1px solid rgba(213,178,122,.38);box-shadow:0 18px 70px rgba(213,116,39,.08),var(--shadow)}
+.booking-box h2{font-size:clamp(2.8rem,7vw,7rem)}
+footer strong{color:var(--tan);font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:.9rem}
+footer .footer-grid{grid-template-columns:1.15fr 1fr 1fr 1.2fr}
+@media(max-width:780px){
+  .site-header{padding:10px 16px}.brand img{width:58px}.brand span{font-size:1rem}.nav-toggle{font-size:2rem;padding:6px 10px}
+  .site-nav{top:78px;padding:18px}.site-nav a{padding:12px 0;font-size:1.05rem}
+  .hero{min-height:82vh}.hero-content{padding-top:80px}.hero-logo{max-width:165px}.hero-copy{font-size:1.05rem}
+  .section-pad{padding:58px 0}.section-heading h2{font-size:clamp(2.65rem,13vw,4.3rem)}
+  .trip-card{min-height:460px}.trip-card div{padding:20px}.trip-card h3{font-size:1.75rem}
+  .feature{min-height:72vh;padding:70px 22px}.feature-content h2{font-size:clamp(3.1rem,16vw,5rem)}
+  .gallery-grid{grid-template-columns:1fr 1fr;gap:9px}.gallery-grid img{height:170px;border-radius:14px}
+  .booking-actions{grid-template-columns:1fr}.booking-box{padding:34px 22px}.modal-card{width:94vw;padding:22px}
+  footer .footer-grid{grid-template-columns:1fr;gap:28px;text-align:center}footer img{margin:0 auto}footer a{justify-content:center}
+}
