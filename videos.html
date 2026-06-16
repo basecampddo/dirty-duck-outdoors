@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Videos | Dirty Duck Outdoors</title>
+<meta name="description" content="Watch Dirty Duck Outdoors videos including Florida hunting, fishing, backwater trips, and behind-the-scenes outdoor content.">
+<meta name="keywords" content="Dirty Duck Outdoors, Florida hunting guides, Florida fishing charters, Florida hog hunts, Florida alligator hunts, Florida duck hunting, Florida turkey hunting, Florida deer hunting, Florida inshore fishing, Florida offshore fishing, Florida shrimping trips, veteran hunts, youth hunts">
+<meta name="author" content="Dirty Duck Outdoors">
+<meta property="og:title" content="Videos | Dirty Duck Outdoors">
+<meta property="og:description" content="Watch Dirty Duck Outdoors videos including Florida hunting, fishing, backwater trips, and behind-the-scenes outdoor content.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dirtyduckoutdoors.com/videos.html">
+<meta property="og:image" content="https://dirtyduckoutdoors.com/images/brand/dirty-duck-logo-transparent.png">
+<link rel="canonical" href="https://dirtyduckoutdoors.com/videos.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto+Slab:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/nzf0zab.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header" id="top">
+  <a class="brand" href="index.html"><img src="images/brand/dirty-duck-logo-transparent.png" alt="Dirty Duck Outdoors logo"><span>Dirty Duck Outdoors</span></a>
+  <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+  <nav class="site-nav">
+    <a href="index.html">Home</a>
+    <div class="nav-dropdown"><button class="drop-toggle" type="button">Adventures ▼</button><div class="drop-menu"><a href="hog-hunts.html">Hog Hunts</a><a href="duck-hunts.html">Duck Hunts</a><a href="alligator-hunts.html">Alligator Hunts</a><a href="turkey-hunts.html">Turkey Hunts</a><a href="deer-hunts.html">Deer Hunts</a><a href="inshore-fishing.html">Inshore Fishing</a><a href="offshore-fishing.html">Offshore Fishing</a><a href="shrimping-trips.html">Shrimping Trips</a></div></div>
+    <div class="nav-dropdown"><button class="drop-toggle" type="button">Programs ▼</button><div class="drop-menu"><a href="youth-hunts.html">Youth Hunts</a><a href="veteran-hunts.html">Veteran Giveback Hunts</a></div></div>
+    <div class="nav-dropdown"><button class="drop-toggle" type="button">Info ▼</button><div class="drop-menu"><a href="pricing.html">Pricing & Deposits</a><a href="conditions.html">Tides & Moon</a><a href="regulations.html">Rules & Regulations</a></div></div>
+    <a href="gallery.html">Gallery</a>
+    <a href="videos.html">Videos</a>
+    <a href="contact.html">Contact</a>
+    <a href="#" class="nav-book open-trip-form" data-trip="General Trip Request">Request a Trip</a>
+  </nav>
+</header>
+<main><section class="info-hero" style="--page-hero-image:url('images/v10/duck/duck-01-duck-hero.jpg');--accent:#d5b27a"><div class="hero-overlay"></div><div class="info-hero-content"><img class="hero-icon" src="images/icons/mud-boat-icon.png" alt="Videos icon"><p class="eyebrow">Videos</p><h1>Watch Dirty Duck</h1><p>Real hunts. Real fishing. Real Florida. Follow Dirty Duck Outdoors on YouTube, Instagram, and TikTok.</p><div class="social-buttons"><a class="btn primary" href="https://youtube.com/@dirtyduck_outdoors">YouTube</a><a class="btn ghost" href="https://www.instagram.com/dirtyduck_outdoors">Instagram</a><a class="btn ghost" href="https://www.tiktok.com/@dirtyduck_outdoors">TikTok</a></div></div></section></main>
+<div class="trip-modal" id="tripModal" aria-hidden="true">
+  <div class="trip-modal-backdrop" data-close-trip-form></div>
+  <div class="trip-modal-panel" role="dialog" aria-modal="true" aria-labelledby="tripModalTitle">
+    <button class="trip-modal-close" type="button" data-close-trip-form aria-label="Close request form">×</button>
+    <img class="modal-logo" src="images/brand/dirty-duck-logo-transparent.png" alt="Dirty Duck Outdoors logo">
+    <p class="eyebrow">Dirty Duck Outdoors</p>
+    <h2 id="tripModalTitle">Trip Request</h2>
+    <p class="modal-note">This does not automatically book a trip. It sends the details to Dirty Duck Outdoors so Dylan can confirm availability, seasons, weather, tides, tags, and timing.</p>
+    <form id="tripRequestForm" class="trip-form" action="https://formspree.io/f/mzdwegbl" method="POST">
+      <div class="form-row two-col">
+        <label>Full Name <input type="text" name="name" required placeholder="Your name"></label>
+        <label>Phone Number <input type="tel" name="phone" required placeholder="Best call/text number"></label>
+      </div>
+      <label>Email <input type="email" name="email" required placeholder="you@example.com"></label>
+      <input type="hidden" name="_subject" value="New Dirty Duck Outdoors Trip Request">
+      <div class="form-row two-col">
+        <label>Adventure Type<select name="tripType" id="tripType" required><option value="General Trip Request">General Trip Request</option>
+<option value="Hog Hunt">Hog Hunt</option>
+<option value="Duck Hunt">Duck Hunt</option>
+<option value="Alligator Hunt">Alligator Hunt</option>
+<option value="Turkey Hunt">Turkey Hunt</option>
+<option value="Deer Hunt">Deer Hunt</option>
+<option value="Inshore Fishing">Inshore Fishing</option>
+<option value="Offshore Fishing">Offshore Fishing</option>
+<option value="Shrimping Trip">Shrimping Trip</option>
+<option value="Youth Hunt">Youth Hunt</option>
+<option value="Veteran Giveback Hunt">Veteran Giveback Hunt</option></select></label>
+        <label>Group Size <input type="number" name="groupSize" min="1" max="20" placeholder="How many people?"></label>
+      </div>
+      <div class="form-row two-col">
+        <label>Preferred Date / Window <input type="text" name="preferredDate" placeholder="Example: weekend in March"></label>
+        <label>Backup Date / Window <input type="text" name="backupDate" placeholder="Optional backup date"></label>
+      </div>
+      <label>Notes / Special Requests <textarea name="notes" rows="4" placeholder="Kids coming? Veterans trip? First timers? Target species? Tags? Anything Dylan should know?"></textarea></label>
+      <button class="btn primary form-submit" type="submit">Send Request</button>
+      <p class="form-helper form-status" id="formStatus">Requests send directly to <strong>basecamp@dirtyduckoutdoors.com</strong>. No email app will open.</p>
+    </form>
+  </div>
+</div>
+<footer>
+  <div class="container footer-grid">
+    <div><img src="images/brand/dirty-duck-logo-transparent.png" alt="Dirty Duck Outdoors logo"><p>Dirty Duck Outdoors<br><strong>Formerly Dirty Duck Outfitters</strong><br>Hunt • Fish • Live Free</p></div>
+    <div><h4>Adventures</h4><a href="hog-hunts.html">Hog Hunts</a><a href="duck-hunts.html">Duck Hunts</a><a href="alligator-hunts.html">Alligator Hunts</a><a href="turkey-hunts.html">Turkey Hunts</a><a href="deer-hunts.html">Deer Hunts</a><a href="inshore-fishing.html">Inshore Fishing</a><a href="offshore-fishing.html">Offshore Fishing</a><a href="shrimping-trips.html">Shrimping Trips</a></div>
+    <div><h4>Programs & Info</h4><a href="youth-hunts.html">Youth Hunts</a><a href="veteran-hunts.html">Veteran Giveback Hunts</a><a href="pricing.html">Pricing & Deposits</a><a href="conditions.html">Tides & Moon</a><a href="regulations.html">Rules & Regulations</a></div>
+    <div><h4>Follow / Contact</h4><a href="https://www.instagram.com/dirtyduck_outdoors">Instagram</a><a href="https://www.tiktok.com/@dirtyduck_outdoors">TikTok</a><a href="https://youtube.com/@dirtyduck_outdoors">YouTube</a><a href="mailto:basecamp@dirtyduckoutdoors.com">basecamp@dirtyduckoutdoors.com</a><a href="tel:14077388837">(407) 738-8837</a></div>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
