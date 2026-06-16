@@ -3,8 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const navToggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('.site-nav');
   if (navToggle && nav) {
-    navToggle.addEventListener('click', () => nav.classList.toggle('open'));
-  }
+  navToggle.addEventListener('click', () => {
+    nav.classList.toggle('open');
+    document.body.classList.toggle('nav-open', nav.classList.contains('open'));
+  });
+}
 
   const modal = document.getElementById('tripModal');
   const tripType = document.getElementById('tripType');
